@@ -10,13 +10,12 @@ body {
 }
 
 .container {
-  max-width: 1410px;
-  margin: auto;
+  padding: 2rem 3rem;
 }
 
 .main-section {
   background: url("images/bg-desktop.svg") no-repeat hsl(257, 40%, 49%);
-  height: 100vh;
+  height: 100%;
 }
 
 header {
@@ -26,7 +25,7 @@ header {
 
 header img {
   width: 200px;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
 }
 
 .hero-section {
@@ -38,17 +37,17 @@ header img {
   width: 55%;
 }
 .left-section img {
-  width: 95%; 
+  width: 95%;
 }
 
 .right-section {
-    width: 45%;
+  width: 45%;
 }
 
 .right-section h1 {
   font-family: "Poppins", sans-serif;
   line-height: 1.6;
-  width:60%;
+  width: 60%;
   font-weight: 600;
   color: #fff;
   margin-top: 2.5rem;
@@ -71,9 +70,18 @@ header img {
   font-weight: 600;
   border-radius: 25px;
   box-shadow: 0px 8px 25px 4px hsl(257, 41%, 31%);
+  display: inline-block;
+  margin-right: auto;
+  text-align: center;
 }
 
 .btn:hover {
   text-decoration: underline;
   transition: all 0.5s ease-in-out;
 }
+
+/* .right-section i {
+  font-size: 30px;
+  margin-top: 3rem;
+  
+} */
