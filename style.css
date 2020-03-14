@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  padding: 2rem 3rem;
+  padding: 2rem 3.5rem;
 }
 
 .main-section {
@@ -25,23 +25,23 @@ header {
 
 header img {
   width: 200px;
-  /* margin-top: 1.5rem; */
 }
 
 .hero-section {
   display: flex;
+  justify-content: space-between;  
 }
 
 .left-section {
   margin-right: 3rem;
-  width: 55%;
-}
-.left-section img {
-  width: 95%;
+  width: 50%;
 }
 
 .right-section {
-  width: 45%;
+  flex-direction: column;
+  display: flex;
+  width: 50%;
+  height: 100%;
 }
 
 .right-section h1 {
@@ -73,15 +73,29 @@ header img {
   display: inline-block;
   margin-right: auto;
   text-align: center;
+  margin-bottom: 8rem;
 }
 
 .btn:hover {
   text-decoration: underline;
-  transition: all 0.5s ease-in-out;
+  transform: scale(1.2);
+  transition: all .3s ease-in-out;
+  
 }
 
-/* .right-section i {
-  font-size: 30px;
-  margin-top: 3rem;
-  
-} */
+.social {
+  height: 100%;
+  float: right;
+  display: flex;
+  justify-content:flex-end;
+}
+
+.social i {
+  font-size: 40px;
+  color: #fff;
+  padding-left: 1rem;
+}
+
+i:nth-last-of-type(1):hover {
+  color: blue;
+}
