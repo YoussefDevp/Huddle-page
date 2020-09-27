@@ -11,6 +11,9 @@
 }
 
 @media only screen and (max-width: 720px) {
+  .container {
+    background: #674baf url("./images/bg-mobile.svg") center center/cover;
+  }
   .container .nav img {
     width: 30%;
   }
@@ -20,11 +23,16 @@
 }
 
 @media only screen and (max-width: 414px) {
-  .row {
+  .container {
     background: #674baf url("./images/bg-mobile.svg") center center/cover;
   }
   .column {
+    margin: 0 auto;
+  }
+  .column h1, .column p {
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=queries.css.map */

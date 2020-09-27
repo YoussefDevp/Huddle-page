@@ -9,7 +9,7 @@
 
 * .container {
   padding: 2rem;
-  background: #674baf;
+  background: #674baf url("./images/bg-desktop.svg") center center no-repeat;
   height: 100%;
 }
 
@@ -20,7 +20,6 @@
 
 * .container .row {
   height: 100%;
-  background: url("./images/bg-desktop.svg") center center/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

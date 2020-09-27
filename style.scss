@@ -6,7 +6,7 @@
   font-family: 'Poppins';
   .container {
     padding: 2rem;
-    background: hsl(257, 40%, 49%) ;
+    background: hsl(257, 40%, 49%) url('./images/bg-desktop.svg')center center no-repeat;
     height: 100%;
     .nav img {
       width: 18%;
@@ -14,7 +14,6 @@
     }
     .row {
       height: 100%;
-      background: url('./images/bg-desktop.svg')center center/cover;
       display: flex;
   
       .column {
